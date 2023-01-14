@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 305px 970px 108px;
+  column-gap: 20px;
+}
+.right-hero {
+  height: 1315px;
+  background: #fff;
+}
+.middle-hero {
+  width: 100%;
+  height: 467px;
+  background: #fff;
+}
+.left-hero {
+  width: 100%;
+  height: 1315px;
+  background: #fafafa;
+}
+.user-info {
+  margin-top: 93px;
+  margin-left: 60px;
+  height: 118px;
+  width: 500px;
+}
+.user-name {
+}
