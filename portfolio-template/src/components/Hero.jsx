@@ -14,9 +14,15 @@ const Hero = () => {
       <div className="middle-hero">
         <div className="user-info">
           <h1 className="user-name">
-            I’m Rayan Adlrdard <span className="color-text">Font - End</span>
+            I’m Rayan Adlrdard <span className="color-text">Font - End </span>
             Developer
           </h1>
+          <div className="user-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
+            volutpat feugiat placerat lobortis. Natoque rutrum semper sed
+            suspendisse nunc lectus.
+          </div>
+          <button className="btn">Hire me</button>
         </div>
       </div>
       <div className="left-hero"></div>
