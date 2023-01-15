@@ -3,3 +3,19 @@
   height: 1315px;
   background: #fafafa;
 }
+.img-bar {
+  /* margin-top: 3rem; */
+  width: 150px;
+  height: 150px;
+}
+.profile-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  /* background: #fafafa; */
+  /* background-image: url("../../img/profile-pics.png"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

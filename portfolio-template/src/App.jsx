@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <div className="container">
-        <Right__hero />
-        <Hero />
         <Left__hero />
+        <Hero />
+        <Right__hero />
       </div>
       <h1 style={{ textAlign: "center", background: "#646cff", color: "#fff" }}>
         Portfolio Website
