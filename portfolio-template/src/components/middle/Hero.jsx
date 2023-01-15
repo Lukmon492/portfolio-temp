@@ -1,17 +1,11 @@
 import React from "react";
+import img from "../../img/profile-pics.png";
 import "./hero.css";
+
 const Hero = () => {
   return (
-    <div className="container">
-      <div className="right-hero">
-        {/* <div className="hero">
-      <div className="hero-body">
-      <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-          <h1 className="hero-title"></h1> */}
-      </div>
-      <div className="middle-hero">
+    <div className="middle-hero">
+      <div className="user-section">
         <div className="user-info">
           <h1 className="user-name">
             I’m Sanni Lukman <span className="color-text">Font - End </span>
@@ -24,8 +18,10 @@ const Hero = () => {
           </div>
           <button className="btn">Hire me</button>
         </div>
+        <div className="user-image">
+          <img src={img} className="img" />
+        </div>
       </div>
-      <div className="left-hero"></div>
     </div>
   );
 };

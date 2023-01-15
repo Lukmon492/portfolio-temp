@@ -9,3 +9,10 @@ body {
   background: #e5e5e5;
   font-family: "Inter", sans-serif;
 }
+.container {
+  /* just adding brething space to the top */
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 305px 970px 108px;
+  column-gap: 20px;
+}
