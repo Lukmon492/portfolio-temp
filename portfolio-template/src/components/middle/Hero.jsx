@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../img/profile-pics.png";
 import "./hero.css";
+import { MdArrowForward } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
             volutpat feugiat placerat lobortis. Natoque rutrum semper sed
             suspendisse nunc lectus.
           </div>
-          <button className="btn">Hire me</button>
+          <button className="btn">
+            Hire me <MdArrowForward className="arrow__right" />
+          </button>
         </div>
         <div className="user-image">
           <img src={img} className="img" />

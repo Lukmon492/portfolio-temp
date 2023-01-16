@@ -1,0 +1,24 @@
+.about {
+  width: 90%;
+  margin: 0 auto;
+}
+.about__info {
+  padding: 0 8px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 24px;
+}
+.about__info h3 {
+  color: rgba(43, 43, 43, 0.75);
+  font-weight: 400;
+  background: #ffb400;
+  padding: 2px 8px;
+}
+.about__info p {
+  color: #2b2b2b;
+}
+.about__info .available {
+  color: #7eb942;
+}

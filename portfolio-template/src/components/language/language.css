@@ -1,0 +1,48 @@
+.languages {
+  width: 80%;
+  margin: 0 auto;
+}
+.language__section h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #2b2b2b;
+  margin: 1.2rem 0;
+}
+.language__skills {
+  width: 100%;
+  margin: 0.2rem 0;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 24px;
+  color: #767676;
+  font-weight: normal;
+}
+.language__skills h3 {
+  font-weight: 300;
+}
+/* ===========i want external component to handle it */
+.language__bar {
+  width: 100%;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  outline: 1px solid #ffb400;
+}
+.language__bar .below__avg {
+  width: 40%;
+  padding: 2px;
+  border-radius: 32px;
+  background: #ffb400;
+}
+.language__bar .almost__full {
+  width: 80%;
+  padding: 2px;
+  border-radius: 32px;
+  background: #ffb400;
+}
+.language__bar .full {
+  padding: 2px;
+  border-radius: 32px;
+  background: #ffb400;
+}
