@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="about__info">
         <h3>Freelance:</h3>
-        <p className="available">available</p>
+        <p className="available">Available</p>
       </div>
       <div className="about__info">
         <h3>Address:</h3>

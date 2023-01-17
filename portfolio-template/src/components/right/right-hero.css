@@ -1,4 +1,10 @@
-.right-hero {
-  height: 1315px;
+.right__menu-container {
+  height: 1445px;
   background: #fafafa;
+}
+.right-hero {
+  width: 70px;
+  height: 32rem;
+  margin: 4rem auto;
+  background: rgb(23, 199, 219);
 }
