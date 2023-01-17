@@ -7,6 +7,7 @@ import About from "../about/About";
 import Language from "../language/Language";
 import Skills from "../skills/Skills";
 import Extra__skills from "../extra_skill/Extra__skills";
+import Cv from "../dounload__cv/Cv";
 
 const Left__hero = () => {
   return (
@@ -19,16 +20,18 @@ const Left__hero = () => {
           <div className="profile-name">
             <h4>Sanni Lukman</h4>
             <p>Font-end Developer</p>
-            <Icons />
-            <RectLine />
-            <About />
-            <RectLine />
-            <Language />
-            <RectLine />
-            <Skills />
-            <RectLine />
-            <Extra__skills />
           </div>
+          <Icons />
+          <RectLine />
+          <About />
+          <RectLine />
+          <Language />
+          <RectLine />
+          <Skills />
+          <RectLine />
+          <Extra__skills />
+          <RectLine />
+          <Cv />
         </div>
       </div>
     </div>

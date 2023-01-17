@@ -11,23 +11,14 @@ const Extra__skills = () => {
           <BiRectangle />
           <h3>Bootstrap, Materialize</h3>
         </div>
-        <div className="extra__skill_bar">
-          <div className="progress" style={{ width: "90%" }}></div>
-        </div>
       </div>
       <div className="extra__skill_acquired">
         <BiRectangle />
         <h3>Stylus, Sass, Less</h3>
       </div>
-      <div className="extra__skill_bar">
-        <div className="progress" style={{ width: "80%" }}></div>
-      </div>
       <div className="extra__skill_acquired">
         <BiRectangle />
         <h3>Gulp, Webpack, Grunt</h3>
-      </div>
-      <div className="extra__skill_bar">
-        <div className="progress" style={{ width: "70%" }}></div>
       </div>
       <div className="extra__skill_acquired">
         <BiRectangle />

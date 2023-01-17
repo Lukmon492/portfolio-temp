@@ -1,0 +1,17 @@
+.download__box {
+  width: 90%;
+  margin-left: 1.8rem;
+}
+.download__btn {
+  width: 90%;
+  color: #2b2b2b;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  background: #ffb400;
+  padding: 0.8rem 0.6rem;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+.download__icon {
+  margin: 6px 0 0 10px;
+}
