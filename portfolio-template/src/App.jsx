@@ -12,10 +12,10 @@ function App() {
         <Hero />
         <Right__hero />
       </div>
-      <h1 style={{ textAlign: "center", background: "#646cff", color: "#fff" }}>
+      {/* <h1 style={{ textAlign: "center", background: "#646cff", color: "#fff" }}>
         Portfolio Website
-        {/* <Icons /> */}
-      </h1>
+      </h1> */}
+      {/* <Icons /> */}
     </div>
   );
 }

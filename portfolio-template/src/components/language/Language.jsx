@@ -1,5 +1,5 @@
 import React from "react";
-import Status__bar from "../status_bar/Status__bar";
+// import Status__bar from "../status_bar/Status__bar";
 import "./language.css";
 
 const Language = () => {

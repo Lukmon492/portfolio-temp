@@ -6,6 +6,7 @@ import RectLine from "../RectLine/RectLine";
 import About from "../about/About";
 import Language from "../language/Language";
 import Skills from "../skills/Skills";
+import Extra__skills from "../extra_skill/Extra__skills";
 
 const Left__hero = () => {
   return (
@@ -25,6 +26,8 @@ const Left__hero = () => {
             <Language />
             <RectLine />
             <Skills />
+            <RectLine />
+            <Extra__skills />
           </div>
         </div>
       </div>

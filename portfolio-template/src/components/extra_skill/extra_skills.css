@@ -1,14 +1,14 @@
-.skills {
+.extra__skills {
   width: 80%;
   margin: 0 auto;
 }
-.skills__section h2 {
+.extra__skills_section h2 {
   font-weight: 400;
   font-size: 18px;
   color: #2b2b2b;
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
-.skill__acquired {
+.extra__skill_acquired {
   width: 100%;
   margin: 0.2rem 0;
   height: 40px;
@@ -19,18 +19,20 @@
   color: #767676;
   font-weight: normal;
 }
-.skill__acquired h3 {
+.extra__skill_acquired h3 {
+  width: 80%;
   font-weight: 400;
   font-size: 16px;
+  color: #767676;
 }
 /* ===========i want external component to handle it */
-.skill__bar {
+.extra__skill_bar {
   width: 100%;
   border-radius: 32px;
   border: 1px solid #fff;
   outline: 1px solid #ffb400;
 }
-.skill__bar .progress {
+.extra__skill_bar .progress {
   padding: 2px;
   border-radius: 32px;
   background: #ffb400;

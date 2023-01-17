@@ -6,7 +6,7 @@
   font-weight: 400;
   font-size: 18px;
   color: #2b2b2b;
-  margin: 1.2rem 0;
+  margin: 1rem 0;
 }
 .language__skills {
   width: 100%;
@@ -20,7 +20,8 @@
   font-weight: normal;
 }
 .language__skills h3 {
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 16px;
 }
 /* ===========i want external component to handle it */
 .language__bar {
