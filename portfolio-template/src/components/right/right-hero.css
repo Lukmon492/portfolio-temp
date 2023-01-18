@@ -4,15 +4,12 @@
 }
 .right__hero {
   width: 70px;
-  height: 32rem;
+  height: 40rem;
   margin: 4rem auto;
-  background: rgb(23, 199, 219);
-  /* display: flex; */
 }
 .right__hero-body {
   display: flex;
   gap: 2rem;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -28,6 +25,7 @@
 }
 .hero__icon.contrast {
   font-size: 28px;
+  margin-bottom: 6.8rem;
 }
 .right__hero-home {
   display: flex;

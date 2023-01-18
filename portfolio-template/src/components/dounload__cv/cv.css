@@ -5,6 +5,7 @@
 .download__btn {
   width: 90%;
   color: #2b2b2b;
+  cursor: pointer;
   font-weight: 500;
   margin: 1.8rem 0;
   background: #ffb400;
