@@ -3,6 +3,7 @@ import img from "../../img/profile-pics.png";
 import "./hero.css";
 import { MdArrowForward } from "react-icons/md";
 import Services from "../service/Services";
+import Payment from "../payments/Payment";
 
 const Hero = () => {
   return (
@@ -29,6 +30,7 @@ const Hero = () => {
         </div>
       </div>
       <Services />
+      <Payment />
     </div>
   );
 };

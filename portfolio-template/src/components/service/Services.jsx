@@ -2,6 +2,11 @@ import React from "react";
 import "./services.css";
 import { FiMic } from "react-icons/fi";
 import { RiArrowRightSLine } from "react-icons/ri";
+// import { IoGameController } from "react-icons/io5";
+import game from "../../assets/game.png";
+import photography from "../../assets/photography.png";
+import ui_ux from "../../assets/ux.png";
+import web_dev from "../../assets/web_dev.png";
 
 const Services = () => {
   return (
@@ -13,12 +18,12 @@ const Services = () => {
       </p>
       <div className="service__cards">
         <div className="service__card">
-          <FiMic className="service__card-icon" />
+          <img src={web_dev} className="service__card-icon" />
           <h3>web development</h3>
           <p>blog, e-commerce</p>
         </div>
         <div className="service__card">
-          <FiMic className="service__card-icon" />
+          <img src={ui_ux} className="service__card-icon" />
           <h3>uI/uX design</h3>
           <p>Mobile app, website design</p>
         </div>
@@ -28,12 +33,12 @@ const Services = () => {
           <p>Voice Over, Beat Making</p>
         </div>
         <div className="service__card">
-          <FiMic className="service__card-icon" />
+          <img src={game} alt="" />
           <h3>game design</h3>
           <p>Character Design, Props & Objects</p>
         </div>
         <div className="service__card">
-          <FiMic className="service__card-icon" />
+          <img src={photography} alt="" />
           <h3>photography</h3>
           <p>portrait, product photography</p>
         </div>
