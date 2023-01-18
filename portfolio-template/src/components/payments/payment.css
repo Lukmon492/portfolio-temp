@@ -30,7 +30,7 @@
 }
 .payment__card {
   background: #fff;
-  height: 225px;
+  padding: 3rem 2rem 1rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -54,6 +54,39 @@
 }
 .payment__card p {
   color: #767676;
+  line-height: 1.6rem;
   text-align: center;
+  width: 280px;
   text-transform: capitalize;
+}
+.payment__card ul {
+  list-style: none;
+  margin-left: 0.6rem;
+  align-self: flex-start;
+}
+.payment__card ul li {
+  line-height: 2.2rem;
+}
+.payment__card ul li::after {
+  content: "";
+  display: block;
+  background: red;
+  width: 250px;
+  /* height: 2px; */
+  border: 0.5px solid transparent;
+}
+.payment__card ul li:last-child::after {
+  content: "";
+  display: none;
+}
+.payment__card .payment__icon {
+  margin-right: 12px;
+}
+.payment__card ul li span:nth-child(2) {
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+.payment__cards .payment__card .fade__text {
+  color: #767676;
+  padding-left: 4px;
 }
