@@ -44,7 +44,7 @@ const Recommendation = () => {
             <AiTwotoneStar />
             <AiTwotoneStar />
           </div>
-          <h3>uI/uX design</h3>
+          <h3>Amazing work!</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi. Morbi donec amet....
@@ -65,7 +65,7 @@ const Recommendation = () => {
             <AiTwotoneStar />
             <AiTwotoneStar />
           </div>
-          <h3>sound design</h3>
+          <h3>Great Quality!</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi. Morbi donec amet....
