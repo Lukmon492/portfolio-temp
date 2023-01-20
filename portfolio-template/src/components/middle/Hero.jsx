@@ -4,6 +4,7 @@ import "./hero.css";
 import { MdArrowForward } from "react-icons/md";
 import Services from "../service/Services";
 import Payment from "../payments/Payment";
+import Recommendation from "../recommondation/Recommendation";
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
       </div>
       <Services />
       <Payment />
+      <Recommendation />
     </div>
   );
 };

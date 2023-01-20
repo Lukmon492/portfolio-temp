@@ -19,12 +19,14 @@
   border-radius: 50%;
   background: #f0f0f6;
   display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
 }
 .hero__icon.contrast {
   font-size: 28px;
+  cursor: pointer;
   margin-bottom: 6.8rem;
 }
 .right__hero-home {

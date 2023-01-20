@@ -1,19 +1,18 @@
-.service__section {
+.recommendation__section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
-.service__header {
+.recommendation__header {
   color: #2b2b2b;
   font-weight: 700;
   font-size: 32px;
-  text-transform: capitalize;
-  text-align: center;
   margin-bottom: 1.6rem;
   margin-top: 4rem;
 }
-.service__text {
+.recommendation__text {
   width: 430px;
   color: #767676;
   line-height: 1.6rem;
@@ -22,44 +21,47 @@
   margin-bottom: 3rem;
   text-transform: capitalize;
 }
-.service__cards {
+.recommendation__cards {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-.service__card {
+.recommendation__card {
+  padding: 2rem;
   background: #fff;
-  height: 225px;
+  width: 310px;
   display: flex;
   gap: 1rem;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
-.service__card h3 {
+.recommendation__rating {
+  color: #ffb400;
+  display: flex;
+  gap: 0.6rem;
+}
+.recommendation__card h3 {
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
   color: rgba(43, 43, 43, 0.809);
 }
-.service__card p {
+.recommendation__card p {
   color: #767676;
-  text-align: center;
+  width: 290px;
   line-height: 1.6rem;
   text-transform: capitalize;
 }
-.service__card-icon {
-  font-size: 4rem;
-  font-weight: 100;
-  color: #ffb400;
-  stroke-width: 1.2px;
-}
-.service__card .color_text {
+.recommendation_author {
   display: flex;
-  align-items: center;
-  color: #ffb400;
-  font-weight: 600;
+  /* justify-content: space-between; */
 }
-.grater__icon {
-  font-size: 20px;
+.recommendation_author.info {
+  display: flex;
+  flex-direction: column;
+}
+.author-img {
+  width: 80px;
+  border-radius: 50%;
 }

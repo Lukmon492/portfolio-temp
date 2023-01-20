@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: #000; */
 }
 .payment__header {
   color: #2b2b2b;
@@ -28,14 +27,30 @@
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-.payment__card {
+.payment__card,
+.payment__card-body {
   background: #fff;
-  padding: 3rem 2rem 1rem;
+  padding: 2rem 1.5rem 0;
+  margin-bottom: 2rem;
   display: flex;
-  gap: 1rem;
+  gap: 0.6rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.payment__card-body {
+  padding-top: 1rem;
+}
+.payment__card.middle {
+  align-self: start;
+  padding: 0;
+}
+.payment__card-header {
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 0;
+  background: #ffb400;
+  text-transform: capitalize;
 }
 .payment__card h3 {
   font-size: 20px;
@@ -65,15 +80,15 @@
   align-self: flex-start;
 }
 .payment__card ul li {
-  line-height: 2.2rem;
+  line-height: 3rem;
 }
+/* adding the very thing line below each list items */
+
 .payment__card ul li::after {
   content: "";
   display: block;
-  background: red;
   width: 250px;
-  /* height: 2px; */
-  border: 0.5px solid transparent;
+  border: 0.5px solid #fafafa;
 }
 .payment__card ul li:last-child::after {
   content: "";
@@ -89,4 +104,18 @@
 .payment__cards .payment__card .fade__text {
   color: #767676;
   padding-left: 4px;
+}
+button {
+  font-size: 14px;
+  padding: 1rem 4rem;
+  background: #ffffff;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  font-weight: 700;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 30px;
+}
+.styled__btn {
+  background: #ffb400;
 }
