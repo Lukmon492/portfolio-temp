@@ -29,7 +29,7 @@
 .recommendation__card {
   padding: 2rem;
   background: #fff;
-  width: 310px;
+  width: 328px;
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -55,13 +55,26 @@
 }
 .recommendation_author {
   display: flex;
-  /* justify-content: space-between; */
 }
 .recommendation_author.info {
   display: flex;
+  margin-left: 1rem;
   flex-direction: column;
+  justify-content: center;
 }
 .author-img {
   width: 80px;
   border-radius: 50%;
+}
+.recommendation__circles {
+  margin-top: 4rem;
+  display: flex;
+  gap: 0.6rem;
+}
+.recommendation__end-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ffb400;
 }
