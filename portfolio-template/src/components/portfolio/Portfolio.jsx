@@ -36,7 +36,7 @@ const Portfolio = () => {
         </nav>
       </div>
       <div className="portfolio__proj-samples">
-        <div className="portfolio__proj-sample">
+        <div className="portfolio__proj-sample bg">
           <BsPlusLg className="plus_icon" />
         </div>
         <div className="portfolio__proj-sample">
