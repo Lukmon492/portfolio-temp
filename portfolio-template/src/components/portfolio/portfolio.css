@@ -1,0 +1,36 @@
+.portfolio__nav {
+  display: flex;
+  gap: 2rem;
+}
+.portfolio__nav nav {
+  /* background: red; */
+}
+/* .portfolio__nav nav a, */
+.portfolio__nav nav a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.portfolio__proj-samples {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.portfolio__proj-sample {
+  width: 310px;
+  height: 300px;
+  background: rgba(255, 180, 0, 0.95);
+  position: relative;
+}
+.plus_icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.sample__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}

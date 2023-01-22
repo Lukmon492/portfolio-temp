@@ -82,7 +82,7 @@
 .payment__card ul li {
   line-height: 3rem;
 }
-/* adding the very thing line below each list items */
+/* adding the very thin-line below each list items */
 
 .payment__card ul li::after {
   content: "";
