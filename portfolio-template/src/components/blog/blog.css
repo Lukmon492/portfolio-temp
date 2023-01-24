@@ -27,6 +27,28 @@
 .blog__section-blocks {
   display: grid;
   gap: 1rem;
-  background: #fff;
   grid-template-columns: repeat(3, 1fr);
+}
+.blog__section-block {
+  background: #fff;
+}
+.blog__section-block__contents {
+  padding: 1.5rem 0 1rem 1.5rem;
+  width: 90%;
+}
+.blog__section-blocks h4 {
+  font-size: 18px;
+  margin-bottom: 0.4rem;
+}
+.blog__section-blocks p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+  text-transform: capitalize;
+  margin-bottom: 0.4rem;
+}
+.blog__section-blocks h5 {
+  font-size: 18px;
+  color: #ffb400;
+  font-weight: 500;
 }
