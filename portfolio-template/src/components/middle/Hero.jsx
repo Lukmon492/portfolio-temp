@@ -8,6 +8,7 @@ import Education from "../education/Education";
 import Recommendation from "../recommondation/Recommendation";
 import Work from "../work/Work";
 import Portfolio from "../portfolio/Portfolio";
+import Blog from "../blog/Blog";
 
 const Hero = () => {
   return (
@@ -39,6 +40,7 @@ const Hero = () => {
       <Education />
       <Work />
       <Portfolio />
+      <Blog />
     </div>
   );
 };
