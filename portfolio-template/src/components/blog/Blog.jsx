@@ -14,14 +14,14 @@ const Blog = () => {
     {
       img: "../../assets/card.jpeg",
       description: "bussiness card",
-      title: "How to make web tempates",
+      title: "make Business card",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
       explore: "Learn more",
     },
     {
       img: "../../assets/flyer.jpeg",
       description: "flyer",
-      title: "How to make web tempates",
+      title: "How to make Flyer Design",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
       explore: "Learn more",
     },
